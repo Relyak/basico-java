@@ -1,0 +1,42 @@
+package ejercicioLambda;
+
+public class Lambda {
+	//DEVUELVE SIEMPRE 5
+	public Constante dev() {
+	
+		return () ->5;
+	}
+	//DEVUELVE DOS ENTEROS
+	public Operador ob() {
+		return (a,b)->a+b;
+	}
+	//DEVUELVE array de string, recibe array todas las posiciones obtienen el valor del parametro
+	public IniArr obIni() {
+		return (array,valor)->{
+			for (int i = 0; i < array.length; i++) {
+				array[i]=valor;
+			}
+			return 0;
+		};
+	}
+	
+	public static void main(String[] args) {
+		Lambda l=new Lambda();
+		l.mostrar();
+	}
+	public void mostrar() {
+		System.out.println(dev().valor());
+		System.out.println(ob().ope(5, 6));
+	}
+}
+interface Constante{
+	int valor();
+}
+
+interface Operador{
+	int ope(int a,int b);
+}
+
+interface IniArr{
+	int ini(String[]array,String valor);
+}

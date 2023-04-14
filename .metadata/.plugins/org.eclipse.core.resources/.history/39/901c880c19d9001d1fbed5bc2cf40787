@@ -1,0 +1,43 @@
+package ejercicioLambda;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.Arrays;
+
+import org.junit.jupiter.api.Test;
+
+class LambdaTest {
+
+	@Test
+	void testDev() {
+		int numEsperado = 5;
+		Constante con = () -> 5;
+		int numCons = con.valor();
+		assertEquals(numEsperado, Lambda.dev().valor());
+	}
+
+	@Test
+	void testOb() {
+		int numEsperado = 10;
+		Operador op = (a, b) -> a + b;
+		int numOp = op.ope(10, 0);
+		assertEquals(numEsperado, numOp);
+	}
+
+	@Test
+	void testObIni() {
+		IniArr a = (array, valor) -> {
+			Arrays.fill(array, valor);
+			return 0;
+		};
+		String valor="*";
+		String array[] = new String[1];
+		a.ini(array, valor);
+		for (int i = 0; i < array.length; i++) {
+			assertEquals(array[i],valor);
+		}
+		
+		
+
+	}
+}

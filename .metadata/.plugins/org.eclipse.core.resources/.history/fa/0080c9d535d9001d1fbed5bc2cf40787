@@ -1,0 +1,16 @@
+package ejercicioArrayNumeros;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class AppTest {
+	App app=new App();
+	int numEsperado;
+	@Test
+	void testSuma() {
+		numEsperado = 15;
+		assertEquals(numEsperado, lamb.dev().valor());
+	}
+
+}

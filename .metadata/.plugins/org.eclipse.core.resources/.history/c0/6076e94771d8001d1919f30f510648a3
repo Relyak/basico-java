@@ -1,0 +1,38 @@
+package ejercicioReloj;
+
+public class Reloj {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Reloj r=new Reloj();
+		r.hora();
+	}
+	public void hora() {
+		int segundos=0,minutos=0,horas=0;
+		while(true) {
+			segundos++;
+			try {
+				Thread.sleep(1000);
+				System.out.print(horas+":"+minutos+"segundos");
+				if(segundos>59) {
+					segundos=0;
+					minutos++;
+				}
+				if(minutos>59) {
+					minutos=0;
+					horas++;
+				}
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		
+		
+		
+		
+		
+	}
+
+}

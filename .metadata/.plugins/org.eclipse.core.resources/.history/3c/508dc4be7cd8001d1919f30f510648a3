@@ -1,0 +1,23 @@
+package ejercicioLambda;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class LambdaTest {
+
+	@Test
+	void testDev() {
+		int numEsperado=5;
+		Constante con=()->5;
+		int numCons=con.valor();
+		assertEquals(numEsperado,numCons);
+	}
+
+	@Test
+	void testOb() {
+		int numEsperado=10;
+		Operador op=(a,b)->a+b;
+	}
+
+}

@@ -1,0 +1,36 @@
+package ejemploAnonimo;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Mayor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> lis = new ArrayList<Integer>();
+
+		lis.add(322);
+		lis.add(45);
+		lis.add(5);
+
+		// Collections.sort(lis, (o1, o2) -> o1.compareTo(o2));
+		Integer max;
+		max = Collections.max(lis);
+		// max=lis.get(lis.size()-1);
+
+		System.out.printf("El mayor es: %d", max);
+
+	}
+
+	static void fun(int... a) {
+		List<Integer> lista = new ArrayList<Integer>();
+		for (int i : a) {
+			lista.add(i);
+		}
+		Integer max=Collections.max(lista);
+		
+
+	}
+
+}

@@ -1,0 +1,56 @@
+package ejercicioArrayNumeros;
+
+import java.util.function.Function;
+
+public class App {
+	//VARIABLES
+	
+	private int[]array= {1,2,32};
+	private	Integer resultadoSum;
+	private Function<int[],Integer> sumaFunction ;
+	private Media mediaInterfaz;
+	private double resultadoMed;
+	int a;
+	
+	
+	public static void main(String[] args) {
+		App app=new App();
+		app.mostrar();
+	}
+	
+	public void mostrar() {
+		//con FUNCTION
+		sumaFunction = suma();
+		resultadoSum= sumaFunction.apply(array);
+		//con INTERFAZ
+		mediaInterfaz= media();
+		resultadoMed=mediaInterfaz.media(array);
+		System.out.printf("La suma es: %d \nLa media es:%.2f",resultadoSum,resultadoMed);
+	}
+	//con la clase Function
+	public Function<int[], Integer> suma() {
+		return (array) -> {
+			int suma = 0;
+			for (int a : array) {
+				suma += a;
+			}
+			return suma;
+		};
+	}
+	//con una interfaz
+	public Media media() {
+		Media media = (array) -> {
+			double result = 0;
+			for (int b : array) {
+				result += b;
+			}
+			return result / array.length;
+		};
+		return media;
+	}
+
+	interface Media {
+		double media(int[] a);
+	}
+
+}

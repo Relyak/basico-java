@@ -1,0 +1,19 @@
+package ejercicioLambda;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class LambdaTest {
+
+	@Test
+	void testDev() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testOb() {
+		fail("Not yet implemented");
+	}
+
+}

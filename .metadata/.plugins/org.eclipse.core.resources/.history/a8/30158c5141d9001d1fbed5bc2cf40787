@@ -1,0 +1,28 @@
+package ejemploAnonimo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Mayor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> lis = new ArrayList<String>();
+		
+		lis.add("Kayler");
+		lis.add("Kaylord");
+		lis.add("Relyak");
+		/*
+		Collections.sort(lis,new Comparator<String>() {
+
+			@Override
+			public int compare(String o1, String o2) {
+				// TODO Auto-generated method stub
+				return o1.compareTo(o2);
+			}
+			
+		});*/
+		//Collections.sort(lis, (o1, o2) -> o1.compareTo(o2));
+	}
+
+}

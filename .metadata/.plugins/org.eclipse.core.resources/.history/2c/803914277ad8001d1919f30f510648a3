@@ -1,0 +1,33 @@
+package ejercicioLambda;
+
+public class Lambda {
+	//DEVUELVE SIEMPRE 5
+	public Constante dev() {
+	
+		return null;
+	}
+	//DEVUELVE DOS ENTEROS
+	public Operador ob() {
+		return null;
+	}
+	//DEVUELVE ARRAY DE STRING, RECIBE UN ARRAY
+	public IniArr obIni() {
+		return null;
+	}
+	
+	public static void main(String[] args) {
+		Lambda l=new Lambda();
+		System.out.println(l.dev());
+	}
+}
+interface Constante{
+	int valor();
+}
+
+interface Operador{
+	int ope(int a,int b);
+}
+
+interface IniArr{
+	int ini(String[]array,String valor);
+}

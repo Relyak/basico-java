@@ -1,0 +1,17 @@
+package ejemploAnonimo;
+
+import java.util.function.Function;
+
+public class TamanioString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Function<String, Integer> s = String::length;
+		/*Function<String,Integer>s = (String x)->{
+			return x.length();
+		};*/
+		Integer tamano = s.apply("123456789");
+		System.out.printf("El tamaño de la cadena es de: %d",tamano);
+	}
+
+}

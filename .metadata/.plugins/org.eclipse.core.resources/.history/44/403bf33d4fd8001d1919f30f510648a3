@@ -1,0 +1,26 @@
+package ejemploGenerico;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
+class Generica <T>{
+	private T primera;
+	
+	
+	public Generica() {
+		this.primera=null;
+	}
+	
+	public T getPrimera() {
+		return this.primera;
+	}
+	
+	
+	
+	
+}

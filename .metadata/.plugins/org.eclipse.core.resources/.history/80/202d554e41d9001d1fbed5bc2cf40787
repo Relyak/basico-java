@@ -1,0 +1,10 @@
+package ejemploAnonimo;
+
+public class Mayor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

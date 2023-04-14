@@ -1,0 +1,5 @@
+package ejemploAnonimo;
+
+public interface Operacion {
+	int sumar(int a, int b);
+}

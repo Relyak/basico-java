@@ -1,0 +1,6 @@
+package Singleton;
+
+public class Segunda {
+	Singleton a=Singleton.getInstance();
+	//a.metodo();
+}
