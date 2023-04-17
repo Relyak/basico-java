@@ -1868,3 +1868,37 @@ Caused by: org.eclipse.core.runtime.CoreException: Cannot determine URI for '/pr
 2023-04-17 16:57:26,803 [Worker-24: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1-sources.jar
 2023-04-17 16:57:26,807 [Worker-24: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:4.0.1
 2023-04-17 17:04:12,895 [Worker-44: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:04:12,897 [Worker-44: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:04:12,901 [Worker-44: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:21:02,289 [Worker-56: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:21:02,292 [Worker-56: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:21:02,294 [Worker-56: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:21:50,295 [Worker-60: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:21:50,299 [Worker-60: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:21:50,301 [Worker-60: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:22:31,841 [Worker-61: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:22:31,845 [Worker-61: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:22:31,847 [Worker-61: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:24:07,505 [Worker-60: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:24:07,509 [Worker-60: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:24:07,511 [Worker-60: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:25:28,290 [Worker-53: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:25:28,295 [Worker-53: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:25:28,297 [Worker-53: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:27:45,517 [Worker-63: Launching springBasico - SpringBasicoApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.neoris:basico:0.0.1-SNAPSHOT @ C:\Users\tem.prac\eclipse-workspace\springBasico\pom.xml.
+2023-04-17 17:27:45,714 [Worker-63: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:27:45,714 [Worker-63: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:27:45,716 [Worker-63: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:27:46,784 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.0.5/spring-boot-devtools-3.0.5-sources.jar
+2023-04-17 17:27:46,879 [Worker-65: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.0.5/spring-boot-devtools-3.0.5-sources.jar
+2023-04-17 17:27:46,882 [Worker-65: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:3.0.5
+2023-04-17 17:29:16,543 [Worker-59: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:29:16,554 [Worker-59: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:29:16,555 [Worker-59: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:31:08,661 [Worker-66: Build Project] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:31:08,666 [Worker-66: Build Project] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:31:08,668 [Worker-66: Build Project] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:33:46,962 [Worker-64: Build Project] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-04-17 17:33:46,964 [Worker-64: Build Project] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-04-17 17:33:46,965 [Worker-64: Build Project] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\tem.prac\eclipse-workspace\springBasico\src\test\resources
+2023-04-17 17:36:54,967 [Worker-59: Launching springBasico - SpringBasicoApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
