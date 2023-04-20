@@ -1,5 +1,0 @@
-package ejemploAnonimo;
-
-public interface Operacion {
-
-}
