@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba básica</title>
+</head>
+<body>
+    <h1>Personas</h1>
+    <table>
+        <thead>
+            <tr>
+				<th>Id</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Teléfono</th>
+                <th>Dirección</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="p : ${persona}">
+				<td th:text="${p.id}"></td>
+                <td th:text="${p.nombre}"></td>
+                <td th:text="${p.apellidos}"></td>
+                <td th:text="${p.telefono}"></td>
+                <td th:text="${p.direccion}"></td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="button" id="alerta" value="Haz clic aquí interno">
+    <script>
+    	document.getElementById("alerta").addEventListener("click",()=>{
+    	alert("hola soy un boton hecho con js pero interno porque el externo no funciona jijiji eclipseGod")},false)
+    </script>
+</body>
+
+</html>

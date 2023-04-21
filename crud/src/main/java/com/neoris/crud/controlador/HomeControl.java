@@ -1,5 +1,6 @@
 package com.neoris.crud.controlador;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,13 +27,19 @@ public class HomeControl {
 	@Autowired
 	private ServicioPersona servicio;
 
+	public static List<Persona> listP = new ArrayList<>();
+
 	@PostMapping
 	public ResponseEntity crearPersona(@RequestBody Persona persona) {
-		return new ResponseEntity(servicio.crearPersona(persona), HttpStatus.CREATED);
+		Persona nueva = servicio.crearPersona(persona);
+
+		listP.add(nueva);
+		return new ResponseEntity(nueva, HttpStatus.CREATED);
 	}
 
 	@GetMapping("/busca/{id}")
 	public ResponseEntity obtenerPersona(@PathVariable Long id) {
+
 		return new ResponseEntity(servicio.obtenerPersona(id), HttpStatus.OK);
 	}
 

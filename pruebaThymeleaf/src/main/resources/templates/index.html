@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba básica</title>
+    <script src="../static/js/archivo.js"></script>
+</head>
+<body>
+    <h1>Personas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="p : ${persona}">
+                <td th:text="${p.nombre}"></td>
+                <td th:text="${p.edad}"></td>
+            </tr>
+        </tbody>
+    </table>
+    <input type="button" id="alerta" value="Haz clic aquí interno">
+    <input type="button" id="alerta2" value="Haz clic aquí externo">
+    <script>
+    	document.getElementById("alerta").addEventListener("click",()=>{
+    	alert("hola soy un boton")},false)
+    </script>
+</body>
+
+</html>
